@@ -22,6 +22,10 @@ This sample uses the Gradle build system. To build this project, use the
 
 To use this sample, follow the following steps:
 
+1. make sure you already have a SHA key: keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore -list -v. Typical password is android
+
+1. In case you had that previously run that, run keytool -list -v  -keystore ~/.android/debug.keystore
+
 1. Create a project on
 [Google Developer Console](https://console.developers.google.com/). Or, use an
 existing project.

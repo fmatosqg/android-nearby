@@ -17,3 +17,8 @@ allprojects {
         jcenter()
     }
 }
+
+
+wrapper { 
+   gradleVersion = "2.9"
+}
